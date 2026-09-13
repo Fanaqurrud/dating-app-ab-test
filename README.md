@@ -35,20 +35,15 @@
 
 По результатам анализа рекомендовано **не внедрять изменение цены премиальной подписки**.
 
-## Структура проекта
+## Описание файлов
 
-```text
-dating-app-ab-test/
-├── README.md
-├── dating_app_ab_test.ipynb
-└── data/
-    ├── Проект_3_transactions_control_1.csv
-    ├── Проект_3_transactions_control_2.csv
-    ├── Проект_3_transactions_test.csv
-    ├── Проект_3_users_control_1.csv
-    ├── Проект_3_users_control_2.csv
-    └── Проект_3_users_test.csv
-```
+- `dating_app_ab_test.ipynb` — основной блокнот с обработкой данных и анализом результатов A/B-теста;
+- `data/Проект_3_transactions_control_1.csv` — транзакции первой контрольной группы;
+- `data/Проект_3_transactions_control_2.csv` — транзакции второй контрольной группы;
+- `data/Проект_3_transactions_test.csv` — транзакции тестовой группы;
+- `data/Проект_3_users_control_1.csv` — пользователи первой контрольной группы;
+- `data/Проект_3_users_control_2.csv` — пользователи второй контрольной группы;
+- `data/Проект_3_users_test.csv` — пользователи тестовой группы.
 
 ## Запуск
 
